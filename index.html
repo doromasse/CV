@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Dorothée Massé</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      </head>
+        <style>
+@media only screen and (min-width: 600px) {
+            /* GENERAL */
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+}
+  a{
+    text-decoration: none;
+    color: #4472C4;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  p{
+    margin: 0 0 1rem;
+  }
+  
+  h1{
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  h3{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .text-blue{
+    color: #4472C4;
+  }
+  
+  .text-darkblue{
+    color: #002060;
+  }
+  
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+  
+  .icon{
+    margin-right: .5rem;
+  }
+  
+  .cv-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1200px;
+    margin: 100px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .section{
+    margin-bottom: 1.5rem;
+  }
+  
+  /* LEFT COLUMN */
+  .left-column{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #46474a;
+    text-align: justify;
+    color: white;
+  }
+  
+  .portait{
+    border-radius: 50%;
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .skills{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+  }
+  
+  /* RIGHT COLUMN */
+  .right-column{
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+      "header"
+      "content";
+    text-align: justify;
+  }
+  
+  /* HEADER */
+  .header{
+    grid-area: header;
+    padding: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .infos{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* CONTENT */
+  .content{
+    grid-area: content;
+    padding: 50px;
+  }
+  
+  .experience-list{
+    list-style-type: circle;
+  }
+
+        </style>
+<body>
+          <div class="cv-container">
+            <div class="left-column">
+              <div class="w3-container w3-center w3-animate-zoom">
+              <img class="portait" src="IMG_0249.jpg" alt="photo"/></div>
+              <div class="section">
+                <h3>À PROPOS</h3>
+                <p>
+                  Le <strong>Front-end</strong> est une de mes passions : j’aime créer logos, intégrer ou imaginer des interfaces modernes, les rendre responsives et les dynamiser avec des animations élégantes. J'ai acquis des compétences Fullstack : PHP, MySQL, maniement d'APIs...  
+                </p>
+                <p>
+                  De nature débrouillarde et indépendante dans mon travail, j’aime apprendre de nouvelles technologies, passer du temps à résoudre des problèmes et réaliser du code de qualité. Mes valeurs de travail : clean code, flexibilité, performance et sérieux.
+                </p>
+              </div>
+              <div class="section">
+                <h3>COMPÉTENCES</h3>
+                <ul class="skills">
+                  <li><i class="icon fas fa fa-check-circle text-darkblue"></i> <strong> Figma &#124; GIMP</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Frameworks  LARAVEL &#124; Vue 3 &#124; Electron</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Bootstrap &#124; Taillwinds &#124; W3</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>HTML &#124; CSS &#124; SASS</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Javascript &#124; Anime js</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>jQuery</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>npm &#124; Webpack&#124; Nodes js</strong></li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> PHP</li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> API WORDPRESS</li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> MySQL</li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> Git &#124; Github</li>
+                  <li><i class="icon fas fa-check-circle text-darkblue"></i> Docker</li>
+                </ul>
+              </div>
+              <div class="section">
+                <h3>Langues</h3>
+                <p>
+                  Français, langue maternelle
+                  <br>
+                  Anglais, compétence professionnelle
+                </p>
+              </div>
+              <div class="section">
+                <h3>CENTRE D'INTÉRÊT</h3>
+                <p>
+                  Créations artistiques
+                  <br>
+                  Musique
+                  <br>
+                  Art en général
+                  <br>
+                  Informatique en général
+                </p>
+              </div>
+            </div>
+            <div class="right-column">
+              <div class="header">
+                <div class="w3-container w3-center w3-animate-zoom">
+                <h1>Dorothée <span class="text-blue text-uppercase">Massé</span></h1></div>
+                <p>Recherche de stage en développement informatique Front end</p>
+                <ul class="infos">
+                  <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:massedoro@gmail.com">massedoro@gmail.com</a></li>
+                  <li><i class="icon fas fa-phone text-blue"></i>+33 06 16 41 35 70</li>
+                  <li><i class="icon fas fa-map-marker-alt text-blue"></i> 79 Rue des Tronchants, 62840 Lorgies</li>
+                </ul>
+              </div>
+              <div class="content">
+                <div class="section">
+                  <div class="w3-container w3-center w3-animate-zoom">
+                  <h2>Études <span class="text-blue">& formations</span></h2></div>
+                  <p>
+                    <strong>2022 <i class="fas fa-long-arrow-alt-right"></i> 2023</strong>
+                    <br>
+                    <em>DEV&GO et WEB&GO : Formation de Développeuse informatique avec spécialisation en Front End. </em>, niveau BAC+2, EPITECH (Ecole pour l'informatique et les nouvelles technologies)
+                  </p>
+                  <p>
+                    <strong>1990 <i class="fas fa-long-arrow-alt-right"></i> 1996</strong>
+                    <br>
+                    <em>Prépa CFPA - Maîtrise de Droit Privé</em>, Spécialisation droit civil et droit des Sociétés
+                    Université Droit et santé, LILLE II 
+                  </p>
+                  <p>
+                    <strong>1989 <i class="fas fa-long-arrow-alt-right"></i> 1990</strong>
+                    <br>
+                    <em>BAC A1</em>, Lycée Ste Marie Beaucamps-ligny
+                  </p>
+                </div>
+                <div class="section">
+                  <div class="w3-container w3-center w3-animate-zoom">
+                  <h2>Expériences <span class="text-blue">professionelles</span></h2></div>
+                  <p>
+                    <strong>2020 <i class="fas fa-long-arrow-alt-right"></i> 2021</strong>
+                   : Juriste Appels d’offre pour des masques en tissu <em>RUKO+ La Bassée (59) </em>
+                  </p>
+                  <ul class="experience-list">
+                    <li>Législation d'appel d'offre, sur les masques tissus </li>
+                    <li>Les enjeux de la responsabilité RSE d'une entreprise</li>
+                    <li>Les différentes plate formes de l’Etat</li>
+                  </ul>
+                </div>
+                <div class="section"> 
+                  <p>
+                    <strong>2018 <i class="fas fa-long-arrow-alt-right"></i> 2019</strong>
+                   : Agent commerciale <em>MissPup La garde (83) et EDIFLOR Le Muy (83) </em>
+                    </p>
+                    <ul class="experience-list">
+                      <li> Prospection - Vente - Fidélisation, goodies et imprimerie</li>
+                      <li> Vérification BAT </li>
+                      <li> Clientèle de commerçants et de PME - PMI 
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="section"> 
+                  <p>
+                    <strong>2006 <i class="fas fa-long-arrow-alt-right"></i> 2017</strong>
+                   : Freelance en activité artistiques
+                  </p>
+                  <ul class="experience-list">
+                    <li>Organisation d'évênements artistiques</li>
+                    <li>Animation ateliers artistiques</li>
+                    <li>Expositons publiques</li>
+                  </ul>
+                </div>
+                <div class="section"> 
+                  <p>
+                    <strong>2002 <i class="fas fa-long-arrow-alt-right"></i> 2005</strong>
+                   : Assistante commerciale <em> FIDAL Formation</em>
+                  </p>
+                  <ul class="experience-list">
+                    <li>Prospection B to B </li>
+                    <li> Organisation et mise en place des sessions de formation juridiques</li>
+                    <li>Salons professionnels</li>
+                  </ul>
+                  <br>
+                <div class="section"> 
+                  <p>
+                    <strong>1999 <i class="fas fa-long-arrow-alt-right"></i> 2002</strong>
+                    : Secretariat Juridique <em> AEQUITAS</em>
+                  </p>
+                  <ul class="experience-list">
+                    <li>
+                      Logiciel CEGID, word, excel, internet, <li> Juridique annuel des sociétés </li>
+                      <li> Assistance dans la création de société </li> 
+                    </li>
+                  </ul>
+                <div class="section">
+                  <div class="w3-container w3-center w3-animate-zoom"> 
+                  <h2>Autres <span class="text-blue">expériences</span></h2></div>
+                    <p>
+                  Permis B, possession d’une voiture
+                    <br>
+                  Artiste plasticienne inscrite à la Maison Des Artistes, aperçu ici : <a href="https://www.artmajeur.com/doro" alt="">Madorssane</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
